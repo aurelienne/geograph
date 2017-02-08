@@ -1,0 +1,16 @@
+GeoGraph 0.1
+
+##############
+Requirements
+##############
+In order to use GeoGraph, you need to have installed:
+PostgreSQL 9.1 or later
+PostGIS 2.0 or later
+Python 3.5 or later with packages: Matplotlib, psycopg2, PyQt, igraph
+
+##############
+Instructions
+##############
+1) Fill defaults.cfg with your database connection information.
+   (It is suggested to keep nameDB as s2g, if it does not exist at your DBMS. This database will be created automatically by GeoGraph.)
+2) Run interface.py
